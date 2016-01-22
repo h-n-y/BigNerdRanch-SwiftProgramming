@@ -31,7 +31,7 @@ print(toDoList)
 SECOND SOLUTION
 
 Use toDoList's reverse() method to reverse the elements of the array.
-The reverse() method is available because the Array type conforms to 
+The reverse() method is available because the Array type conforms to
 the CollectionType protocol.
 
 */
