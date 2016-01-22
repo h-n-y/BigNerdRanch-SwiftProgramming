@@ -23,6 +23,9 @@ xcuserdata
 *.xcuserstate
 *.xcscmblueprint
 
+## Added by Hans
+*.xcworkspacedata
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
