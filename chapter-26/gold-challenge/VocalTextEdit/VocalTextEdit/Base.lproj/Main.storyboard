@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <scenes>
@@ -720,6 +721,9 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <progressIndicator wantsLayer="YES" fixedFrame="YES" maxValue="100" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="xNp-bB-wO5">
+                                <rect key="frame" x="120" y="19" width="240" height="20"/>
+                            </progressIndicator>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="NKM-dM-PuX" secondAttribute="trailing" id="1ja-e9-OaD"/>
@@ -733,6 +737,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="progressIndicator" destination="xNp-bB-wO5" id="cGj-bf-lR5"/>
                         <outlet property="speakButton" destination="HFa-vU-Fqr" id="Zx6-o4-QlL"/>
                         <outlet property="stopButton" destination="3vO-SS-SIO" id="9zf-gh-pgz"/>
                         <outlet property="textView" destination="7qH-lE-ppQ" id="Lok-2a-RFV"/>
