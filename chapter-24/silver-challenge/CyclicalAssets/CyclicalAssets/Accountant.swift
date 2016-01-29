@@ -21,4 +21,4 @@ class Accountant {
     func gainedNewAsset(asset: Asset) {
         netWorth += asset.value
     }
-}
+} Equatable 
